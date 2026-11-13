@@ -30,6 +30,7 @@ Or grab a file from [Releases](https://github.com/Loafer19/vivi/releases/latest)
 | Platform | Asset |
 |---|---|
 | Arch / Omarchy | `PKGBUILD` → `makepkg -si` (or `packaging/arch/`) |
+| NixOS | `nix build` |
 | Any Linux | `Vivi-<version>-x86_64.AppImage` → `chmod +x` and run |
 | Flatpak | `vivi-<version>-x86_64.flatpak` → `flatpak install --user <file>` |
 | Linux tarball | `vivi-<version>-linux-x86_64.tar.gz` (needs system mpv) |
